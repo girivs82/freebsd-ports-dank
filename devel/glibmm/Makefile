@@ -24,7 +24,7 @@ USES+=		compiler:c++11-lang gettext gmake gnome libtool pathfix perl5 \
 		pkgconfig
 USE_GNOME=	glib20 libsigc++20
 USE_LDCONFIG=	yes
-
+.endif
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-documentation
 INSTALL_TARGET=	install-strip

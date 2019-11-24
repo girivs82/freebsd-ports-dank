@@ -22,4 +22,4 @@ do-install:
 	@cd ${WRKSRC}/${d} && ${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} install
 .  endfor
 
-.include "${.CURDIR}/../../devel/glib20-reference/bsd.gnome-reference.mk"
+#.include "${.CURDIR}/../../devel/glib20-reference/bsd.gnome-reference.mk"

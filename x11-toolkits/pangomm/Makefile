@@ -16,7 +16,7 @@ USES=		tar:xz
 
 .if !defined(REFERENCE_PORT)
 PORTSCOUT=	limitw:1,even
-
+.endif
 USES+=		compiler:c++11-lang gmake gnome libtool localbase pathfix \
 		pkgconfig
 USE_CXXSTD=	c++11
