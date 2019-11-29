@@ -1,0 +1,11 @@
+--- meson.build.orig	2019-11-29 07:13:24 UTC
++++ meson.build
+@@ -13,7 +13,7 @@ gi_versions = meson.project_version().split('.')
+ configinc = include_directories('.')
+ 
+ pymod = import('python')
+-python = pymod.find_installation(get_option('python'))
++python = pymod.find_installation(get_option('python3.6'))
+ 
+ python_version = python.language_version()
+ python_version_req = '>=3.4'
